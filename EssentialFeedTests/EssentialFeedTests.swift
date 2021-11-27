@@ -11,7 +11,7 @@
      Property injection
      Method injection
      
-     Singleton
+     Singleton - Should only be used when you only want one ever
      static let shared = HTTPClient()
      Should have private init
      
@@ -22,6 +22,9 @@
 
 import XCTest
 
+// Doesn't need to know how to locate the instance
+// Instead inject the Client as a dependency
+// Dependency Injection 🤯
 class RemoteFeedLoader {
     let client: HTTPClient
     let url: URL
@@ -36,6 +39,8 @@ class RemoteFeedLoader {
     }
 }
 
+// Is just a contract defining which function is needed
+// And by creating a protocol, we can create an extension on other types that confirm to the protocol thus making it more flexible. 
 protocol HTTPClient {
     func get(from url: URL)
 }
