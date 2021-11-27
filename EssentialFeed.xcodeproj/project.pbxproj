@@ -47,10 +47,18 @@
 		EE6C56462751AC9B00AD0F12 /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
+				EE6C56542751AE3C00AD0F12 /* Feed Features */,
+			);
+			path = EssentialFeed;
+			sourceTree = "<group>";
+		};
+		EE6C56542751AE3C00AD0F12 /* Feed Features */ = {
+			isa = PBXGroup;
+			children = (
 				EE6C564E2751ACBF00AD0F12 /* FeedItem.swift */,
 				EE6C56522751AD9000AD0F12 /* FeedLoader.swift */,
 			);
-			path = EssentialFeed;
+			path = "Feed Features";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
