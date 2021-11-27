@@ -14,4 +14,3 @@ struct FeedItem {
     let imageURL: URL
 }
 
-
