@@ -1,6 +1,6 @@
 //
-//  EssentialFeedTests.swift
-//  EssentialFeedTests
+//  RemoteFeedLoaderTests.swift
+//  RemoteFeedLoaderTests
 //
 //  Created by John Gers on 11/27/21.
 //
