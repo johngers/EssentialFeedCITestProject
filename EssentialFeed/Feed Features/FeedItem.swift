@@ -2,7 +2,7 @@
 //  FeedItem.swift
 //  EssentialFeed
 //
-//  Created by John Gers on 11/26/21.
+//  Created by John Gers on 11/27/21.
 //
 
 import Foundation
