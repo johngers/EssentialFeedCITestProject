@@ -10,7 +10,7 @@ import Foundation
 // Doesn't need to know how to locate the instance
 // Instead inject the Client as a dependency
 // Dependency Injection 🤯
-public final class RemoteFeedLoader {
+public final class RemoteFeedLoader: FeedLoader {
     private let url: URL
     private let client: HTTPClient
     
