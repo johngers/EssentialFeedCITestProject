@@ -16,9 +16,6 @@ jobs:
 
     - name: Select Xcode
       run: sudo xcode-select -switch /Applications/Xcode_13.1.app
-      
-    - name: Clean build
-      run: rm -fr ~/Users/runner/Library/Developer/Xcode/DerivedData/*
 
     - name: Build and test
-      run: xcodebuild clean test -project EssentialFeed.xcodeproj -scheme "CI" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+      run: xcodebuild clean build test -workspace EssentialFeed.xcodeproj -scheme "CI" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
